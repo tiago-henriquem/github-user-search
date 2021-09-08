@@ -1,6 +1,12 @@
 const searchInput = document.querySelector('.searchInput')
 const searchBtn = document.querySelector('.searchBtn')
 
+document.addEventListener('keypress', (event) => {
+  if(event.key === 'Enter') {
+    request()
+  }
+})
+
 searchBtn.addEventListener('click', () => {
   request()
 })
