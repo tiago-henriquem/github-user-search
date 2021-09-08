@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* border: 0; */
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #141C2F;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #1F2A48;
+  display: grid;
+  grid-template-areas: "h h", ;
+}
+
+.internalContainer {
+  width: 100%;
+}
+
+.searchInput {
+  width: 75%;
+  height: 25%;
+}
